@@ -739,11 +739,7 @@ def render(report: dict, title: str = "Open Business Case Bench") -> str:
 
         cost_block = (
             "<section><h2>Cost</h2>"
-            f'<p class="section-note">${total:.4f} across {cost["runs"]} run(s) in '
-            f'{_e(_dur(cost.get("wall_seconds", 0.0)))} of wall clock '
-            f'({_e(_dur(cost.get("model_seconds", 0.0)))} of model time) — '
-            f'{cost["prompt_tokens"]:,} prompt and {cost["completion_tokens"]:,} output tokens. '
-            f'The response cache saved ${cost["saved_usd"]:.4f}.</p>'
+            f'<p class="section-note">${total:.2f} across {cost["runs"]} run(s).</p>'
             f"{category_table}{model_table}{case_table}</section>"
         )
 
