@@ -739,7 +739,6 @@ def render(report: dict, title: str = "Open Business Case Bench") -> str:
 
         cost_block = (
             "<section><h2>Cost</h2>"
-            f'<p class="section-note">${total:.2f} across {cost["runs"]} run(s).</p>'
             f"{category_table}{model_table}{case_table}</section>"
         )
 
@@ -749,7 +748,7 @@ def render(report: dict, title: str = "Open Business Case Bench") -> str:
             ("judge", report.get("judge_model", "—")),
             ("builder", cfg.get("models", {}).get("builder", "—")),
             ("annotator", cfg.get("models", {}).get("annotator", "—")),
-            ("extractor", cfg.get("extraction", {}).get("extractor", "—")),
+            ("extractor", report.get("extractor_used") or cfg.get("extraction", {}).get("extractor", "—")),
             ("temperature", cfg.get("sampling", {}).get("temperature", "—")),
             ("solver max tokens", cfg.get("sampling", {}).get("solver_max_tokens", "—")),
             ("judge max tokens", cfg.get("sampling", {}).get("judge_max_tokens", "—")),

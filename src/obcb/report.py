@@ -262,13 +262,18 @@ def run(results_dir: Path | None = None, report_path: Path | None = None) -> dic
     # quality gates drop questions without an explicit reference solution or a usable
     # rubric, and a case can lose all of them. Report both counts so the difference is
     # visible rather than looking like cases silently went missing.
-    built = [c["case_name"] for c in read_jsonl(config.CASES)] if config.CASES.exists() else []
+    built_cases = read_jsonl(config.CASES) if config.CASES.exists() else []
+    built = [c["case_name"] for c in built_cases]
     scored = {c["case_name"] for c in cases_detail}
+    # The configured extractor may be "auto"; report the concrete package(s) actually used,
+    # recorded per case at extraction time, since that is what produced the text.
+    used = sorted({c.get("case_metadata", {}).get("extractor") for c in built_cases} - {None})
     report = {
         "n_questions": len(next(iter(per_model.values()))),
         "n_cases": len(cases_detail),
         "n_cases_built": len(built) or len(cases_detail),
         "cases_without_questions": sorted(n for n in built if n not in scored),
+        "extractor_used": ", ".join(used) or None,
         "judge_model": config.JUDGE_MODEL,
         # Embedded so a set of numbers can always be traced to what produced it.
         "config": config.resolved(),
