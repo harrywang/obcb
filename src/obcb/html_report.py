@@ -644,7 +644,7 @@ def render(report: dict, title: str = "Open Business Case Bench") -> str:
         (_pct(best_cas), "", "Best Complete Answer score"),
     ]
     if cost:
-        tiles.append((f'${cost["total_usd"]:.2f}', "", f'Spend across {cost["runs"]} run(s)'))
+        tiles.append((f'${cost["total_usd"]:.2f}', "", "Total spend"))
     tile_html = "".join(
         f'<div class="stat"><div class="k tnum">{_e(v)}<span class="u">{_e(u)}</span></div>'
         f'<div class="l">{_e(lbl)}</div></div>'
