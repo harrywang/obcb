@@ -1,0 +1,1072 @@
+{
+  "what_this_is": "A list of business case PDFs to download, with the page split that separates the student-facing case from the instructor teaching note. `obcb fetch-cases` reads this file and rebuilds the corpus; the PDFs themselves are not stored in the repo.",
+  "source": "AABRI Journal of Business Cases and Applications (https://www.aabri.com/jbca.html)",
+  "license_note": "AABRI journals are open access: 'Manuscripts are available to the readers at no cost. Readers may read, download, and use the manuscripts and information therein for any lawful purpose without permission from AABRI' (aabri.com/pubpolicy.html). Authors retain copyright, and AABRI directs anyone wishing to REPUBLISH to contact the authors (aabri.com/copyright.html). Downloading and using is therefore explicitly permitted; re-hosting is not granted by a blanket licence. This file records where the PDFs come from and how to split them rather than redistributing them.",
+  "split_rule": "Each manuscript contains the case narrative followed by a teaching note with worked reference answers. case_pages is the student-facing half; instructor_pages is the reference half. Ranges overlap where a single page holds the end of the narrative and the start of the teaching note.",
+  "cases": [
+    {
+      "id": "264105",
+      "slug": "jbca-front-door-foods",
+      "title": "All sizzle and no stake: a stakeholder analysis at Front Door Foods",
+      "volume": 52,
+      "url": "https://www.aabri.com/manuscripts/264105.pdf",
+      "total_pages": 11,
+      "case_pages": [
+        1,
+        6
+      ],
+      "instructor_pages": [
+        6,
+        11
+      ],
+      "sha256": "5b7e0f5d00870b42f82f5e3c9f7f7a906fecf4f51da8e7566bb07e96b1b4a765",
+      "disciplines": "Operations & Service Management, Leadership & Organizational Behavior",
+      "question_mix": "stakeholder power-interest grid; communication failure; handling a project manager's conduct",
+      "split_source": "assistant-checked"
+    },
+    {
+      "id": "264098",
+      "slug": "jbca-zingcard-governance",
+      "title": "Project portfolio governance at ZingCard",
+      "volume": 52,
+      "url": "https://www.aabri.com/manuscripts/264098.pdf",
+      "total_pages": 13,
+      "case_pages": [
+        1,
+        8
+      ],
+      "instructor_pages": [
+        9,
+        13
+      ],
+      "sha256": "0fe421847973f6ee774268a4276ece32f2e8327bffffb04b94e463267223c9ea",
+      "disciplines": "Information Technology, Decision Analysis",
+      "question_mix": "portfolio triage under uncertainty; information quality versus speed",
+      "split_source": "assistant-checked"
+    },
+    {
+      "id": "264083",
+      "slug": "jbca-leasing-downeast",
+      "title": "Understanding the financial implications of leasing for entrepreneurs",
+      "volume": 51,
+      "url": "https://www.aabri.com/manuscripts/264083.pdf",
+      "total_pages": 13,
+      "case_pages": [
+        1,
+        7
+      ],
+      "instructor_pages": [
+        8,
+        13
+      ],
+      "sha256": "3d7551f175ce98a4db67e6a8ef178adcd303f769c151defe759914e924dc5145",
+      "disciplines": "Finance, Entrepreneurship & Innovation",
+      "question_mix": "loan payment; net advantage to leasing; bonus depreciation; lease-vs-buy trade-offs",
+      "split_source": "assistant-checked",
+      "published": "May 2026"
+    },
+    {
+      "id": "254036",
+      "slug": "jbca-adverse-selection",
+      "title": "Trust and Timing: Adverse Selection in IPOs, Venture Capital, and Mortgages",
+      "volume": 50,
+      "url": "https://www.aabri.com/manuscripts/254036.pdf",
+      "total_pages": 11,
+      "case_pages": [
+        1,
+        5
+      ],
+      "instructor_pages": [
+        5,
+        11
+      ],
+      "sha256": "927ea64ba2ab8009c4e16f3d30ff9228c984ef97ab0262e29ab7bc4224219959",
+      "disciplines": "Economics, Finance",
+      "question_mix": "adverse selection and market equilibria; signalling under time pressure",
+      "split_source": "assistant-checked",
+      "published": "March 2026"
+    },
+    {
+      "id": "254025",
+      "slug": "jbca-guns-or-money",
+      "title": "Guns or Money? A Banking Dilemma",
+      "volume": 49,
+      "url": "https://www.aabri.com/manuscripts/254025.pdf",
+      "total_pages": 12,
+      "case_pages": [
+        1,
+        4
+      ],
+      "instructor_pages": [
+        5,
+        12
+      ],
+      "sha256": "7ab006bfc6ee29fecafc69c78444b9b692554cc2a7181155c61bb89953f48ff1",
+      "disciplines": "Finance, Marketing & Sales, Business Ethics",
+      "question_mix": "implied rate of return on a CD-plus-firearm offer; TVM sensitivity; marketing ethics and CSR",
+      "split_source": "assistant-checked",
+      "published": "November 2025"
+    },
+    {
+      "id": "254000",
+      "slug": "jbca-instructional-case-investigating-the",
+      "title": "Instructional case: Investigating the predictive accuracy of acquirers' pro forma earnings disclosures",
+      "volume": 49,
+      "published": "November 2025",
+      "url": "https://www.aabri.com/manuscripts/254000.pdf",
+      "total_pages": 29,
+      "case_pages": [
+        1,
+        4
+      ],
+      "instructor_pages": [
+        5,
+        29
+      ],
+      "sha256": "d644732c86a43380597795dbeae6a40544db0ed730eae20f79381a2906563acb",
+      "split_source": "auto"
+    },
+    {
+      "id": "253964",
+      "slug": "jbca-whatsapp-nso",
+      "title": "Litigation and source code: WhatsApp v. NSO Group",
+      "volume": 48,
+      "url": "https://www.aabri.com/manuscripts/253964.pdf",
+      "total_pages": 21,
+      "case_pages": [
+        1,
+        12
+      ],
+      "instructor_pages": [
+        13,
+        21
+      ],
+      "sha256": "61294dcd522f7a1728dfef39605a626277ca48af1f8bdba7a27eaaec8145149a",
+      "disciplines": "Business & Government Relations, Information Technology",
+      "question_mix": "CFAA litigation strategy; source-code discovery; disclosure timing; cyber insurance",
+      "split_source": "assistant-checked",
+      "published": "October 2025"
+    },
+    {
+      "id": "253968",
+      "slug": "jbca-leadership-clash",
+      "title": "Wasn't on the menu: leadership philosophies clash with organizational culture",
+      "volume": 47,
+      "url": "https://www.aabri.com/manuscripts/253968.pdf",
+      "total_pages": 12,
+      "case_pages": [
+        1,
+        7
+      ],
+      "instructor_pages": [
+        8,
+        12
+      ],
+      "sha256": "8eae6c5e582ca8b8ccbd3514510b669c9c8383e7a9e2a904f7db9a552df45af2",
+      "disciplines": "Leadership & Organizational Behavior, Human Resource Management",
+      "question_mix": "leadership style versus entrenched culture; managing a values conflict",
+      "split_source": "assistant-checked",
+      "published": "October 2025"
+    },
+    {
+      "id": "253936",
+      "slug": "jbca-bcorp-certification",
+      "title": "Is the Future of Business $Green? The Case For & Against B-Corp Certification",
+      "volume": 47,
+      "url": "https://www.aabri.com/manuscripts/253936.pdf",
+      "total_pages": 24,
+      "case_pages": [
+        1,
+        13
+      ],
+      "instructor_pages": [
+        14,
+        24
+      ],
+      "sha256": "522c13680506b57031335ffa5e9bc1f571d0b6c8cc8b445eed7df11571f348a5",
+      "disciplines": "Strategy, Business Ethics",
+      "question_mix": "conscious capitalism; B Corp strategic fit; regulation versus self-certification",
+      "split_source": "assistant-checked",
+      "published": "July 2025"
+    },
+    {
+      "id": "243880",
+      "slug": "jbca-techx-a-case-of",
+      "title": "TechX: A case of simplified financial statements and cash flows analysis",
+      "volume": 46,
+      "published": "April 2025",
+      "url": "https://www.aabri.com/manuscripts/243880.pdf",
+      "total_pages": 12,
+      "case_pages": [
+        1,
+        6
+      ],
+      "instructor_pages": [
+        7,
+        12
+      ],
+      "sha256": "c77885079f173a360156a440e13eaccf259133ef01c7f0f5c3ce21742c5185a8",
+      "split_source": "auto"
+    },
+    {
+      "id": "243899",
+      "slug": "jbca-women-in-governance",
+      "title": "Women in governance: board representation and financial performance",
+      "volume": 45,
+      "url": "https://www.aabri.com/manuscripts/243899.pdf",
+      "total_pages": 20,
+      "case_pages": [
+        1,
+        9
+      ],
+      "instructor_pages": [
+        10,
+        20
+      ],
+      "sha256": "54723a48a1d33389d512ef307c3c0fe16b05129473ccb226b06f9e835564644a",
+      "disciplines": "General Management, Business & Government Relations",
+      "question_mix": "board composition and firm performance; governance reform trade-offs",
+      "split_source": "assistant-checked",
+      "published": "April 2025"
+    },
+    {
+      "id": "243855",
+      "slug": "jbca-finhay-removing-investment-barriers",
+      "title": "Finhay: removing investment barriers and transforming Vietnam's asset management industry",
+      "volume": 45,
+      "published": "October 2024",
+      "url": "https://www.aabri.com/manuscripts/243855.pdf",
+      "total_pages": 29,
+      "case_pages": [
+        1,
+        20
+      ],
+      "instructor_pages": [
+        21,
+        29
+      ],
+      "sha256": "1debcf25b5e3a8373d3bd277d4dd3cdfea96eb5c88a2bc99fd79cd64bc4adf4f",
+      "split_source": "auto"
+    },
+    {
+      "id": "243831",
+      "slug": "jbca-recipe-for-success-selecting",
+      "title": "Recipe for success: selecting the right project manager at Front Door Foods",
+      "volume": 45,
+      "published": "October 2024",
+      "url": "https://www.aabri.com/manuscripts/243831.pdf",
+      "total_pages": 12,
+      "case_pages": [
+        1,
+        7
+      ],
+      "instructor_pages": [
+        7,
+        12
+      ],
+      "sha256": "f8c6fea4e25018262171aed6c626a03ba72c1ecb9be87eaa3837a05126d6504a",
+      "split_source": "auto"
+    },
+    {
+      "id": "233778",
+      "slug": "jbca-employee-sense-making-in",
+      "title": "Employee sense-making in the midst of fast growth (and COVID -19)",
+      "volume": 43,
+      "published": "May 2024",
+      "url": "https://www.aabri.com/manuscripts/233778.pdf",
+      "total_pages": 18,
+      "case_pages": [
+        1,
+        4
+      ],
+      "instructor_pages": [
+        5,
+        18
+      ],
+      "sha256": "7613b26e3e690ec710eecb900d6bb3024f3aa2c8b75e12842d0fc9bcd190bfb2",
+      "split_source": "auto"
+    },
+    {
+      "id": "233771",
+      "slug": "jbca-sentron-blinds-mexico-the",
+      "title": "Sentron blinds Mexico: The challenge in expanding internationally",
+      "volume": 43,
+      "published": "May 2024",
+      "url": "https://www.aabri.com/manuscripts/233771.pdf",
+      "total_pages": 16,
+      "case_pages": [
+        1,
+        8
+      ],
+      "instructor_pages": [
+        9,
+        16
+      ],
+      "sha256": "5b3376289073060ebbadc110a39ec39b432f456e2ea4a634c17115e7e5a582b9",
+      "split_source": "auto"
+    },
+    {
+      "id": "233761",
+      "slug": "jbca-chartering-a-timely-path",
+      "title": "Chartering a timely path - from door to door",
+      "volume": 42,
+      "published": "April 2024",
+      "url": "https://www.aabri.com/manuscripts/233761.pdf",
+      "total_pages": 13,
+      "case_pages": [
+        1,
+        6
+      ],
+      "instructor_pages": [
+        7,
+        13
+      ],
+      "sha256": "6972b58e5835ac5ea4e5b7b6c6f1e2f534c1716146cabd3e4cb8b1d221a093b4",
+      "split_source": "auto"
+    },
+    {
+      "id": "233754",
+      "slug": "jbca-ghost-cattle-fraud",
+      "title": "Ghost cattle fraud",
+      "volume": 41,
+      "published": "January 2024",
+      "url": "https://www.aabri.com/manuscripts/233754.pdf",
+      "total_pages": 8,
+      "case_pages": [
+        1,
+        3
+      ],
+      "instructor_pages": [
+        4,
+        8
+      ],
+      "sha256": "f5388e3aeda5d9d76a3366bc7b9f59cf258d9db853fbd4fe2ea0a2c5639c1ac0",
+      "split_source": "auto"
+    },
+    {
+      "id": "233750",
+      "slug": "jbca-to-save-a-small",
+      "title": "To Save a Small Town",
+      "volume": 41,
+      "published": "January 2024",
+      "url": "https://www.aabri.com/manuscripts/233750.pdf",
+      "total_pages": 11,
+      "case_pages": [
+        1,
+        7
+      ],
+      "instructor_pages": [
+        8,
+        11
+      ],
+      "sha256": "727c2767a66a58ff1c7562b33f6cbb2a30c4bbec2996360cc9f41add33cb0444",
+      "split_source": "auto"
+    },
+    {
+      "id": "233686",
+      "slug": "jbca-new-car-price-negotiation",
+      "title": "New Car Price: Negotiation Minefield",
+      "volume": 40,
+      "published": "September 2023",
+      "url": "https://www.aabri.com/manuscripts/233686.pdf",
+      "total_pages": 9,
+      "case_pages": [
+        1,
+        4
+      ],
+      "instructor_pages": [
+        5,
+        9
+      ],
+      "sha256": "040378fc12fb0a93aecbf7db8c0377ebb53261644f62a1077fbaa1025f1e467c",
+      "split_source": "auto"
+    },
+    {
+      "id": "233678",
+      "slug": "jbca-sustainable-ethical-sourcing-the",
+      "title": "Sustainable ethical sourcing: The case of Nike",
+      "volume": 39,
+      "published": "July 2023",
+      "url": "https://www.aabri.com/manuscripts/233678.pdf",
+      "total_pages": 8,
+      "case_pages": [
+        1,
+        5
+      ],
+      "instructor_pages": [
+        5,
+        8
+      ],
+      "sha256": "c50c6e3e6cf8cfb275838a33a056f218e795d40eaf50bb3fa1ba9faa12f630f0",
+      "split_source": "auto"
+    },
+    {
+      "id": "233676",
+      "slug": "jbca-disappointment-at-your-door",
+      "title": "Disappointment at your door: the case of an underperforming food delivery service",
+      "volume": 39,
+      "published": "July 2023",
+      "url": "https://www.aabri.com/manuscripts/233676.pdf",
+      "total_pages": 9,
+      "case_pages": [
+        1,
+        4
+      ],
+      "instructor_pages": [
+        5,
+        9
+      ],
+      "sha256": "3ec955e3bd91eabdea6ed0d8f801d97e3ff2c031620bf8a99e9bef418f2d309a",
+      "split_source": "auto"
+    },
+    {
+      "id": "223552",
+      "slug": "jbca-the-security-scandals-exercise",
+      "title": "The security scandals exercise: a gender discrimination and negotiation role-play",
+      "volume": 37,
+      "published": "February, 2023",
+      "url": "https://www.aabri.com/manuscripts/223552.pdf",
+      "total_pages": 14,
+      "case_pages": [
+        1,
+        6
+      ],
+      "instructor_pages": [
+        7,
+        14
+      ],
+      "sha256": "1a3dc3b7d90e071e78ebabc9011e7973fb0f5f55a651d68a0cf5a2a5ddb5d8e6",
+      "split_source": "auto"
+    },
+    {
+      "id": "223575",
+      "slug": "jbca-n-u-s-e",
+      "title": "N.U.S.E. Hockey Association: Cost-volume-profit analysis for a non-profit banquet",
+      "volume": 36,
+      "published": "December 2022",
+      "url": "https://www.aabri.com/manuscripts/223575.pdf",
+      "total_pages": 23,
+      "case_pages": [
+        1,
+        4
+      ],
+      "instructor_pages": [
+        5,
+        23
+      ],
+      "sha256": "d2ba4391a6b13538381231a9c6ec06869d129547d5d8bcce62dbb54db64a130c",
+      "split_source": "auto"
+    },
+    {
+      "id": "213502",
+      "slug": "jbca-gross-intellectual-property-the",
+      "title": "Gross Intellectual Property: The Moral Challenges of Ownership in the Digital Age",
+      "volume": 34,
+      "published": "July 2022",
+      "url": "https://www.aabri.com/manuscripts/213502.pdf",
+      "total_pages": 22,
+      "case_pages": [
+        1,
+        9
+      ],
+      "instructor_pages": [
+        10,
+        22
+      ],
+      "sha256": "3183fe1ae8d00a928e9b9a24a9e22a511b30fc07a761ecdbda18259bb32d679c",
+      "split_source": "auto"
+    },
+    {
+      "id": "213484",
+      "slug": "jbca-van-life-the-road",
+      "title": "Van Life: the Road ahead for an Entrepreneur",
+      "volume": 34,
+      "published": "July 2022",
+      "url": "https://www.aabri.com/manuscripts/213484.pdf",
+      "total_pages": 18,
+      "case_pages": [
+        1,
+        10
+      ],
+      "instructor_pages": [
+        11,
+        18
+      ],
+      "sha256": "a2930a97cae2a0c0efd23c5d1db0ce0666fe6195a5635d3d5f987db2bc683ba9",
+      "split_source": "auto"
+    },
+    {
+      "id": "213441",
+      "slug": "jbca-chasing-the-entrepreneurial-dream",
+      "title": "Chasing the entrepreneurial dream: The case of the Poke-A-Dot Organizer",
+      "volume": 33,
+      "published": "March 2022",
+      "url": "https://www.aabri.com/manuscripts/213441.pdf",
+      "total_pages": 14,
+      "case_pages": [
+        1,
+        9
+      ],
+      "instructor_pages": [
+        10,
+        14
+      ],
+      "sha256": "08848b459b2e45f29612bc3b55dc911d8289fe0b5ba8d79f08737a32052390ae",
+      "split_source": "auto"
+    },
+    {
+      "id": "213409",
+      "slug": "jbca-mccarthy-physical-therapy-an",
+      "title": "McCarthy Physical Therapy: An expansion decision",
+      "volume": 32,
+      "published": "October 2021",
+      "url": "https://www.aabri.com/manuscripts/213409.pdf",
+      "total_pages": 17,
+      "case_pages": [
+        1,
+        9
+      ],
+      "instructor_pages": [
+        10,
+        17
+      ],
+      "sha256": "b69127c6fd8719732fc44ab571fa394adca2f66d2538fe7053d6d9cae81b5f7e",
+      "split_source": "auto"
+    },
+    {
+      "id": "213389",
+      "slug": "jbca-volunteer-boards-sometimes-you",
+      "title": "Volunteer Boards: Sometimes You Get What You Pay For",
+      "volume": 31,
+      "published": "September 2021",
+      "url": "https://www.aabri.com/manuscripts/213389.pdf",
+      "total_pages": 8,
+      "case_pages": [
+        1,
+        4
+      ],
+      "instructor_pages": [
+        5,
+        8
+      ],
+      "sha256": "7e523b6c0e99b8e3b478319155897ca8666d5c02582d3d76f09dc5745b60a0af",
+      "split_source": "auto"
+    },
+    {
+      "id": "193116",
+      "slug": "jbca-budgeting-now-but-saving",
+      "title": "Budgeting now but saving for later: Preparing students for the employment market",
+      "volume": 26,
+      "published": "April 2020",
+      "url": "https://www.aabri.com/manuscripts/193116.pdf",
+      "total_pages": 20,
+      "case_pages": [
+        1,
+        8
+      ],
+      "instructor_pages": [
+        9,
+        20
+      ],
+      "sha256": "2d907ac2f79ebcd5ee8e4d75303066990bca26059609fc2bd4897ab0a31f10b9",
+      "split_source": "auto"
+    },
+    {
+      "id": "193092",
+      "slug": "jbca-newtown-university-an-instructional",
+      "title": "Newtown University: an instructional case in strategic management accounting",
+      "volume": 25,
+      "published": "December 2019",
+      "url": "https://www.aabri.com/manuscripts/193092.pdf",
+      "total_pages": 10,
+      "case_pages": [
+        1,
+        7
+      ],
+      "instructor_pages": [
+        7,
+        10
+      ],
+      "sha256": "1216f2c3290aa26e850b2b85d792b55fcf53c8d73ad0b2699c45eead66401ec1",
+      "split_source": "auto"
+    },
+    {
+      "id": "193021",
+      "slug": "jbca-green-funeral",
+      "title": "Green Funeral: Case and Teaching Notes",
+      "volume": 25,
+      "url": "https://www.aabri.com/manuscripts/193021.pdf",
+      "total_pages": 22,
+      "case_pages": [
+        1,
+        6
+      ],
+      "instructor_pages": [
+        7,
+        22
+      ],
+      "sha256": "3db95e57f7f92aa67ad33efb9bfccc30038851e726807a110a695c13e974258f",
+      "disciplines": "Accounting, Finance, Marketing, Business Ethics",
+      "question_mix": "break-even on weighted-average contribution margin; three valuation methods; sales compensation, non-competes, cannibalization",
+      "split_source": "assistant-checked",
+      "published": "December 2019"
+    },
+    {
+      "id": "192992",
+      "slug": "jbca-the-nerd-and-the",
+      "title": "The Nerd and the Beauty Queen- A Case of Academic Dishonesty, Sexual Bullying and Cultural Priorities",
+      "volume": 24,
+      "published": "November 2019",
+      "url": "https://www.aabri.com/manuscripts/192992.pdf",
+      "total_pages": 12,
+      "case_pages": [
+        1,
+        6
+      ],
+      "instructor_pages": [
+        7,
+        12
+      ],
+      "sha256": "29946593fe06225f45c5fe40e064d24031ddcb33ce8213e4ebc1fa54f06460fd",
+      "split_source": "auto"
+    },
+    {
+      "id": "182914",
+      "slug": "jbca-ctd-direct",
+      "title": "CTD Direct",
+      "volume": 23,
+      "published": "July 2019",
+      "url": "https://www.aabri.com/manuscripts/182914.pdf",
+      "total_pages": 24,
+      "case_pages": [
+        1,
+        7
+      ],
+      "instructor_pages": [
+        7,
+        24
+      ],
+      "sha256": "b3812c5ff1fd7a4e33f6339ac2f9441ec7d7cdf8f2fa873e0d96c3a19e89f253",
+      "split_source": "auto"
+    },
+    {
+      "id": "182900",
+      "slug": "jbca-kyle-mitchell-at-abc",
+      "title": "Kyle Mitchell at ABC investments",
+      "volume": 22,
+      "published": "October 2018",
+      "url": "https://www.aabri.com/manuscripts/182900.pdf",
+      "total_pages": 29,
+      "case_pages": [
+        1,
+        7
+      ],
+      "instructor_pages": [
+        7,
+        29
+      ],
+      "sha256": "c305126d36b048f9d0d5ff49f2e4fdc762d34d1efbf17ea0bbfb97cb021facf2",
+      "split_source": "auto"
+    },
+    {
+      "id": "182784",
+      "slug": "jbca-mba-program-in-paris",
+      "title": "MBA program in Paris: A cross cultural joint venture",
+      "volume": 22,
+      "published": "October 2018",
+      "url": "https://www.aabri.com/manuscripts/182784.pdf",
+      "total_pages": 30,
+      "case_pages": [
+        1,
+        16
+      ],
+      "instructor_pages": [
+        17,
+        30
+      ],
+      "sha256": "c8135a6809f0dad3f2c564cc1482e87083e02af4a18df5b60bce6c52f52772e8",
+      "split_source": "auto"
+    },
+    {
+      "id": "182814",
+      "slug": "jbca-applying-a-risk-matrix",
+      "title": "Applying a risk matrix to biologics manufacturing remediation: a teaching exercise",
+      "volume": 21,
+      "published": "August 2018",
+      "url": "https://www.aabri.com/manuscripts/182814.pdf",
+      "total_pages": 15,
+      "case_pages": [
+        1,
+        8
+      ],
+      "instructor_pages": [
+        9,
+        15
+      ],
+      "sha256": "419b455ba00494eb9b3db9d77c808001cea9e1accdc72e2bbb195f374b7e37ce",
+      "split_source": "auto"
+    },
+    {
+      "id": "172717",
+      "slug": "jbca-ethical-dilemma-a-case",
+      "title": "Ethical dilemma: A case of illegal dumping and whistleblowing",
+      "volume": 20,
+      "published": "May 2018",
+      "url": "https://www.aabri.com/manuscripts/172717.pdf",
+      "total_pages": 5,
+      "case_pages": [
+        1,
+        3
+      ],
+      "instructor_pages": [
+        4,
+        5
+      ],
+      "sha256": "06ee49962b8653fa26fe20ed2f2d1cbd05cd4fbd5e93e2d74adc7549b704e30c",
+      "split_source": "auto"
+    },
+    {
+      "id": "172700",
+      "slug": "jbca-why-aren-t-you",
+      "title": "Why aren t you listening to me? a case study in conflict resolution",
+      "volume": 20,
+      "published": "May 2018",
+      "url": "https://www.aabri.com/manuscripts/172700.pdf",
+      "total_pages": 10,
+      "case_pages": [
+        1,
+        5
+      ],
+      "instructor_pages": [
+        6,
+        10
+      ],
+      "sha256": "a22805c3abc9b0e40b73be102da03d9264bfba74cff0b28e792cfd0d299e9878",
+      "split_source": "auto"
+    },
+    {
+      "id": "172685",
+      "slug": "jbca-what-to-do-about",
+      "title": "What to do about Joe",
+      "volume": 19,
+      "published": "January 2018",
+      "url": "https://www.aabri.com/manuscripts/172685.pdf",
+      "total_pages": 22,
+      "case_pages": [
+        1,
+        5
+      ],
+      "instructor_pages": [
+        6,
+        22
+      ],
+      "sha256": "655eec2a4af40cf9bebb13f89f2503f983b83c411a1f41f031c506360d5a873a",
+      "split_source": "auto"
+    },
+    {
+      "id": "172638",
+      "slug": "jbca-accounting-and-tax-concerns",
+      "title": "Accounting and Tax Concerns at Chicago Youth Shakespeare",
+      "volume": 18,
+      "published": "September 2017",
+      "url": "https://www.aabri.com/manuscripts/172638.pdf",
+      "total_pages": 27,
+      "case_pages": [
+        1,
+        16
+      ],
+      "instructor_pages": [
+        17,
+        27
+      ],
+      "sha256": "f4f7b989235ad028971c737e29dba6a07111e70a0d71775d716b1b25e5250b97",
+      "split_source": "auto"
+    },
+    {
+      "id": "162431",
+      "slug": "jbca-the-case-of-human",
+      "title": "The case of Human Resources Plus: reporting and analyzing restructuring charges",
+      "volume": 16,
+      "published": "April 2017",
+      "url": "https://www.aabri.com/manuscripts/162431.pdf",
+      "total_pages": 13,
+      "case_pages": [
+        1,
+        4
+      ],
+      "instructor_pages": [
+        5,
+        13
+      ],
+      "sha256": "04084d3064b3d2b78ee82cca7fab8213c0bd7d0f34ec6001f5fe8b7996f9d9ca",
+      "split_source": "auto"
+    },
+    {
+      "id": "152287",
+      "slug": "jbca-employee-fraud-a-tale",
+      "title": "Employee fraud: A tale of greed and temptations",
+      "volume": 14,
+      "published": "July 2015",
+      "url": "https://www.aabri.com/manuscripts/152287.pdf",
+      "total_pages": 14,
+      "case_pages": [
+        1,
+        8
+      ],
+      "instructor_pages": [
+        9,
+        14
+      ],
+      "sha256": "de148a6e946f91ff95953f02fc38ef58c7fc906edfc7328e0019c6c9c05d0de9",
+      "split_source": "auto"
+    },
+    {
+      "id": "152189",
+      "slug": "jbca-pete-and-carolyn-a",
+      "title": "Pete and Carolyn- a case of costly misperceptions",
+      "volume": 13,
+      "published": "January 2015",
+      "url": "https://www.aabri.com/manuscripts/152189.pdf",
+      "total_pages": 10,
+      "case_pages": [
+        1,
+        5
+      ],
+      "instructor_pages": [
+        5,
+        10
+      ],
+      "sha256": "5600223536c7812451d584211688560d092cd75ccefaf2c91fbfa50ba09d3f19",
+      "split_source": "auto"
+    },
+    {
+      "id": "142047",
+      "slug": "jbca-no-longer-business-as",
+      "title": "No longer business as usual: Employee fraud and ethical issues",
+      "volume": 12,
+      "published": "October 2014",
+      "url": "https://www.aabri.com/manuscripts/142047.pdf",
+      "total_pages": 12,
+      "case_pages": [
+        1,
+        5
+      ],
+      "instructor_pages": [
+        6,
+        12
+      ],
+      "sha256": "05d8632887138dc709cff3fe928ca5b56a45d375a5852c5d3d65b6d154b9e8d1",
+      "split_source": "auto"
+    },
+    {
+      "id": "131560",
+      "slug": "jbca-the-banker-and-the",
+      "title": "The banker and the campus uproar: Ethical dilemmas for finance professionals",
+      "volume": 9,
+      "published": "September 2013",
+      "url": "https://www.aabri.com/manuscripts/131560.pdf",
+      "total_pages": 13,
+      "case_pages": [
+        1,
+        6
+      ],
+      "instructor_pages": [
+        7,
+        13
+      ],
+      "sha256": "d4f79d0f40d248c587661f55c566e1c651e8fa25c32e92b99d90fe3cadce35bf",
+      "split_source": "auto"
+    },
+    {
+      "id": "131455",
+      "slug": "jbca-the-fruitcake-capital-of",
+      "title": "The fruitcake capital of the world",
+      "volume": 8,
+      "published": "June 2013",
+      "url": "https://www.aabri.com/manuscripts/131455.pdf",
+      "total_pages": 8,
+      "case_pages": [
+        1,
+        7
+      ],
+      "instructor_pages": [
+        7,
+        8
+      ],
+      "sha256": "a7748febc051eecfb2c93ed9e4b31f3cf0c78faa3714e2160bd805d51e3ceaf2",
+      "split_source": "auto"
+    },
+    {
+      "id": "121430",
+      "slug": "jbca-hobbs-communication-devices-using",
+      "title": "Hobbs communication devices: using variance analysis to improve budgeting",
+      "volume": 8,
+      "published": "June 2013",
+      "url": "https://www.aabri.com/manuscripts/121430.pdf",
+      "total_pages": 19,
+      "case_pages": [
+        1,
+        3
+      ],
+      "instructor_pages": [
+        4,
+        19
+      ],
+      "sha256": "2a4aff1f10f5ce1158b148a681e0961d57f9ad9c4af02056d18554d8cdf67ca4",
+      "split_source": "auto"
+    },
+    {
+      "id": "121336",
+      "slug": "jbca-how-much-are-fingers",
+      "title": "How much are fingers worth? A case of safety, leadership, and change",
+      "volume": 8,
+      "published": "June 2013",
+      "url": "https://www.aabri.com/manuscripts/121336.pdf",
+      "total_pages": 19,
+      "case_pages": [
+        1,
+        5
+      ],
+      "instructor_pages": [
+        6,
+        19
+      ],
+      "sha256": "7866dde4ddd3aec213168eab59f43c43f36a89741acd89927079cf775599770f",
+      "split_source": "auto"
+    },
+    {
+      "id": "121373",
+      "slug": "jbca-basis-of-my-life",
+      "title": "Basis of my life s work",
+      "volume": 7,
+      "published": "February 2013",
+      "url": "https://www.aabri.com/manuscripts/121373.pdf",
+      "total_pages": 9,
+      "case_pages": [
+        1,
+        5
+      ],
+      "instructor_pages": [
+        5,
+        9
+      ],
+      "sha256": "74bb93148882b3fa31b86ce0109fd800578853bec15512de5f2fe838a1131298",
+      "split_source": "auto"
+    },
+    {
+      "id": "11976",
+      "slug": "jbca-it-s-my-money",
+      "title": "It s my money and I want to recognize it now!",
+      "volume": 6,
+      "published": "October 2012",
+      "url": "https://www.aabri.com/manuscripts/11976.pdf",
+      "total_pages": 10,
+      "case_pages": [
+        1,
+        8
+      ],
+      "instructor_pages": [
+        9,
+        10
+      ],
+      "sha256": "8c767485951d27776b846fc9eabdb1ea6903d81e2e038842b08f4e531dfdba03",
+      "split_source": "auto"
+    },
+    {
+      "id": "11945",
+      "slug": "jbca-case-study-super-saver",
+      "title": "Case study: super saver SDN BHD where is the saving?",
+      "volume": 6,
+      "published": "October 2012",
+      "url": "https://www.aabri.com/manuscripts/11945.pdf",
+      "total_pages": 15,
+      "case_pages": [
+        1,
+        11
+      ],
+      "instructor_pages": [
+        12,
+        15
+      ],
+      "sha256": "1d106cc497fdc885052f55bc93a78ba32766564683c4bac865f6cf97478243aa",
+      "split_source": "auto"
+    },
+    {
+      "id": "11872",
+      "slug": "jbca-the-people-cried-a",
+      "title": "The people cried a case of compassionate, transformational leadership",
+      "volume": 6,
+      "published": "October 2012",
+      "url": "https://www.aabri.com/manuscripts/11872.pdf",
+      "total_pages": 20,
+      "case_pages": [
+        1,
+        7
+      ],
+      "instructor_pages": [
+        8,
+        20
+      ],
+      "sha256": "220c0c99bc2bbc464cb7707df766f99b6899d848b2fda5429437ae0f70276797",
+      "split_source": "auto"
+    },
+    {
+      "id": "11871",
+      "slug": "jbca-goofing-off-is-in",
+      "title": "Goofing off is in the eye of the beholder - A case of trust, culture, and change",
+      "volume": 6,
+      "published": "October 2012",
+      "url": "https://www.aabri.com/manuscripts/11871.pdf",
+      "total_pages": 12,
+      "case_pages": [
+        1,
+        6
+      ],
+      "instructor_pages": [
+        7,
+        12
+      ],
+      "sha256": "bcecefefc2e88f4c7aa493c25a9cb4896db90870566e95cf68c078963f851b40",
+      "split_source": "auto"
+    },
+    {
+      "id": "10737",
+      "slug": "jbca-advance-one-retreat-two",
+      "title": "Advance one, retreat two: A case for problem-based inquiry",
+      "volume": 6,
+      "published": "October 2012",
+      "url": "https://www.aabri.com/manuscripts/10737.pdf",
+      "total_pages": 18,
+      "case_pages": [
+        1,
+        6
+      ],
+      "instructor_pages": [
+        7,
+        18
+      ],
+      "sha256": "b46d377d265d55168e1a4f3594d19ea61f1fbfdf21e6ec9494119fd10b48dda3",
+      "split_source": "auto"
+    }
+  ],
+  "split_source_meaning": {
+    "_no_human_review": "NO HUMAN HAS REVIEWED ANY ENTRY IN THIS LIST. Both labels below describe machine-derived page boundaries; they differ only in how much evidence the machine used. Nobody has read these documents end to end, and no one with business-teaching expertise has judged whether the reference solutions are sound.",
+    "auto": "Boundary from the detector rule alone. Correct on 9 of the 10 assistant-checked cases, so expect a few to be slightly off.",
+    "assistant-checked": "An AI assistant additionally inspected the extracted text around the teaching-note heading and confirmed the note contains worked answers. Two boundaries were corrected this way, where the narrative's last paragraph shares a page with the heading. Still machine-derived. Preserved across rescans.",
+    "human-verified": "Reserved. Set this only after a person has opened the PDF, confirmed the boundary, and read the teaching note. Currently used by zero entries."
+  },
+  "human_reviewed": false,
+  "split_review": {
+    "who": "An AI assistant, not a person. human_reviewed is still false.",
+    "scope": "All 54 splits were checked mechanically after splitting.",
+    "checks": [
+      "answer content in the case half (would hand the solver its answer key)",
+      "instructor half actually contains worked answers",
+      "instructor half opens at the teaching-note heading",
+      "case half is not implausibly thin"
+    ],
+    "result": "0 splits leak answer content into the case half. 1 of 54 (jbca-green-funeral) has no machine-detectable answer marker in its instructor half; its answers are unlabelled prose, confirmed by reading the pages.",
+    "corrections_made": "7 boundaries moved one page earlier. Two rules were wrong: a page holding both the narrative tail and the heading was given to the case half even when the answers started on that same page; and a heading that IS an answers heading ('Suggested Answers to Case Question 1') was not recognised as the answers starting.",
+    "known_limitation": "18 case halves do not end on terminal punctuation. Sampling shows most end in an exhibit table or bullet list, which is expected, but a few look genuinely cut mid-sentence. Distinguishing them needs a person."
+  }
+}

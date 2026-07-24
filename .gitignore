@@ -1,0 +1,25 @@
+.env
+.DS_Store
+.venv/
+.ruff_cache/
+__pycache__/
+*.egg-info/
+dist/
+build/
+
+# Third-party: the paper authors' original release, plus paper.pdf. Not ours to
+# redistribute, and recoverable from the paper's own Zenodo deposit.
+reference-paper-code/
+
+# Case corpus, O*NET taxonomy, and pipeline outputs. Large, and the case PDFs are
+# third-party copyright (AABRI authors retain rights). Regenerate outputs with
+# `uv run obcb all`; see the README for where the corpus comes from.
+#
+# Excluding the contents rather than the directory itself: git does not descend into
+# an ignored directory, so a `!data/case_list.json` under a bare `data/` would never match.
+data/*
+
+# ...but keep what makes the corpus reproducible and the pipeline runnable: the case list
+# and the O*NET taxonomy (public US Dept of Labor data, and a hard dependency of `build`).
+!data/case_list.json
+!data/onet/

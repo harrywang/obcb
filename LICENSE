@@ -1,0 +1,38 @@
+MIT License
+
+Copyright (c) 2026 Harry Wang
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+Scope. This licence covers the source code of Open Business Case Bench (the
+files under src/, tests/, and the documentation). It does NOT cover:
+
+  - The business case materials fetched into data/jbca_pairs/. Those are
+    third-party works whose authors retain copyright; they are used under the
+    AABRI open-access reader grant and are not redistributed by this repository.
+    See docs/licence.md.
+
+  - Third-party dependencies, which carry their own licences. Note in particular
+    that the default PDF extractor, pymupdf4llm, is AGPL-3.0. Using it does not
+    change the licence of this code, but if you distribute or offer this software
+    as a network service, the AGPL's terms apply to that component. The MIT-
+    licensed `docling` extractor is a permissive alternative
+    (OBCB_EXTRACTOR=docling).
